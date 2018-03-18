@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tieude"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#f4f7f7"
+        android:background="#39c11a"
+        android:text="Giải phương trình bậc nhất"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/lbl_a"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tieude"
+        android:text="Số a: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/lbl_a"
+        android:layout_below="@+id/tieude"
+        android:id="@+id/input_a"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/lbl_b"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/lbl_a"
+        android:text="Số b: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/lbl_a"
+        android:layout_below="@+id/input_a"
+        android:id="@+id/input_b"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:id="@+id/tinh"
+        android:layout_below="@id/lbl_b"
+        android:textSize="24sp"
+        android:text="Tính kết quả"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
